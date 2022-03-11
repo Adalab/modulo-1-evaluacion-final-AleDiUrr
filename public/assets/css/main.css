@@ -1,9 +1,14 @@
-/*@import 'core/variables';
-@import 'core/reset';
-@import 'components/code';
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+/*@import 'components/code';
 @import 'components/links';
 @import 'layout/page';
-@import 'layout/header';
+
+;
 @import 'layout/footer';
 @import 'pages/index';*/
 

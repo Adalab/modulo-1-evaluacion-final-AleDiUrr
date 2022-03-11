@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Font google-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
     <!--Font awesome-->
     <script
       src="https://kit.fontawesome.com/0eae504e65.js"
@@ -16,24 +20,24 @@
 
   <body>
     <!--header partial-->
-    <header>
-      <!--Despues de darle estilo recuerda enlazarlo-->
-      <div>
+    <!--Despues de darle estilo recuerda enlazarlo-->
+    <header class="header">
+      <div class="header__menu">
         <i class="fa-solid fa-bars"></i>
       </div>
 
-      <div>
-        <img
-          src="./assets/images/logo.png"
-          title="Logo de Open Spaces"
-          alt="Logo de la tienda"
-        />
-      </div>
+      <img
+        class="header__logo"
+        src="./assets/images/logo.png"
+        title="Logo de Open Spaces"
+        alt="Logo de la tienda"
+      />
 
-      <h1>Disfruta creando espacios</h1>
-      <button>Comprar ahora</button>
-
+      <h1 class="header__title">Disfruta creando espacios</h1>
+      <button class="header__button">Comprar ahora</button>
     </header>
+
+
     <main>
       <!--main partial-->
       <section>
@@ -70,13 +74,56 @@
             <p>Una línea de productos diseñados para todos tus espacios</p>
             <button>Comprar ahora</button>
             <div>
-              
-      <img src="./assets/images/creando-espacios.jpg" title="Foto de cestas organizadoras de cuarto de baño" alt="Foto de cestas organizadoras de cuarto de baño"> 
+              <!--cambiar luego el width-->
+      <img src="./assets/images/creando-espacios.jpg" title="Foto de cestas organizadoras de cuarto de baño" alt="Foto de cestas organizadoras de cuarto de baño" width="300px"> 
 
       </div>     
       </article>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+      <section>
+          <h4>Tienda</h4>
+          <nav>
+            <ul>
+              <li>Productos</li>
+              <li>Cajoneras</li>
+              <li>Para toda la casa</li>
+              <li>Habitaciones</li>
+            </ul>
+          </nav>
+        </section>
+        <section>
+          <h4>Nosotros</h4>
+          <nav>
+            <ul>
+              <li>Nuestra Guía</li>
+              <li>Nuestro diseño</li>
+              <li>Nuestra historia</li>
+              <li>Ayuda</li>
+            </ul>
+          </nav>
+        </section>
+        <section>
+          <h4>Contacto</h4>
+          <!--recuerda poner email to-->
+          <p>ayuda@openspaces.com Socios</p>
+          <nav>
+            <!--despues de poner estilo recuerda enlazarlos a la pagina de adalab-->
+            <ul>
+              <li><i class="fa-brands fa-linkedin-in"></i></li>
+              <li>
+                <i class="fa-brands fa-instagram"></i
+                ></i>
+              </li>
+              <li><i class="fa-brands fa-twitter"></i></li>
+            </ul>
+          </nav>
+        </section>
+        <div>
+            <!--al presionar tiene que llevar al header-->
+          <i class="fa-solid fa-arrow-up"></i>
+        </div>
+    </footer>
   </body>
 </html>
