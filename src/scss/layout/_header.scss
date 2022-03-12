@@ -41,11 +41,11 @@
     background-color: $main-color;
     font-family: $font-text;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
     color: $tertiary-color;
     border-style: none;
-    width: 150px;
-    height: 40px;
+    width: 140px;
+    height: 30px;
     margin: 12px 24px 12px 24px;
   }
 
@@ -115,12 +115,15 @@
     .header__row {
       flex-direction: row-reverse;
     }
+
+    /*
     .header__menu {
       font-size: 10px;
       display: flex;
       margin-top: 76px;
       margin-bottom: 150px;
-    }
+      position: fixed;
+    }*/
 
     .header__menu--li {
       margin-left: 40px;
