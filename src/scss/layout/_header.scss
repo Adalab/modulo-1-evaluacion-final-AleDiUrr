@@ -1,5 +1,6 @@
 .header {
   height: 100vh;
+  width: 100vw;
   background-image: url("../images/header.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -48,6 +49,21 @@
     margin: 12px 24px 12px 24px;
   }
 
+  .header__menu {
+    font-family: $font_text;
+    color: $main-color;
+    display: none;
+
+    .header__menu__ul {
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+    }
+    .header__menu--li {
+      padding: 0 30px 0 30px;
+    }
+  }
+
   @media (min-width: 768px) {
     .header {
       height: 100vh;
@@ -85,6 +101,28 @@
       height: 48px;
       margin-left: 82px;
       margin-bottom: 200px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .header {
+      height: 100vh;
+    }
+    .fa-solid {
+      display: none;
+    }
+
+    .header__row {
+      flex-direction: row-reverse;
+    }
+    .header__menu {
+      display: flex;
+      margin-top: 76px;
+      margin-bottom: 301px;
+    }
+
+    .header__logo {
+      margin: 39px 220px 0px 93px;
     }
   }
 }
