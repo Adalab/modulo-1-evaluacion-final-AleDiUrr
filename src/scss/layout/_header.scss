@@ -1,0 +1,51 @@
+.header {
+  height: 100vh;
+  background-image: url("../images/header.jpg");
+  background-size: 414px 389px;
+  background-repeat: no-repeat;
+
+  .header__row {
+    display: flex;
+  }
+
+  .fa-solid {
+    width: 24px;
+    height: 24px;
+    margin: 36px 0 136px 33px;
+    color: $main-color;
+    position: fixed;
+  }
+
+  .header__logo {
+    align-items: center;
+    width: 213px;
+    height: 96px;
+    margin-top: 19px;
+    margin-left: 60px;
+    margin-bottom: 100px;
+  }
+
+  .header__hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__title {
+    font-family: $font-text;
+    color: $main-color;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .header__button {
+    background-color: $main-color;
+    font-family: $font-text;
+    font-weight: 600;
+    font-size: 14px;
+    color: $tertiary-color;
+    border-style: none;
+    width: 150px;
+    height: 40px;
+    margin: 12px 24px 12px 24px;
+  }
+}
