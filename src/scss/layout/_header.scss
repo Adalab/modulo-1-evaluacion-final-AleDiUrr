@@ -60,7 +60,7 @@
       list-style: none;
     }
     .header__menu--li {
-      padding: 0 30px 0 30px;
+      padding: 0 10px 0 10px;
     }
   }
 
@@ -116,13 +116,22 @@
       flex-direction: row-reverse;
     }
     .header__menu {
+      font-size: 10px;
       display: flex;
       margin-top: 76px;
-      margin-bottom: 301px;
+      margin-bottom: 150px;
+    }
+
+    .header__menu--li {
+      margin-left: 40px;
     }
 
     .header__logo {
-      margin: 39px 220px 0px 93px;
+      margin: 39px 400px 0px 93px;
+    }
+
+    .header__hero {
+      margin-left: 50px;
     }
   }
 }

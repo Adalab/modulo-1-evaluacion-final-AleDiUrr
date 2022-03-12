@@ -355,7 +355,7 @@ text {
       flex-direction: row;
       list-style: none; }
     .header .header__menu .header__menu--li {
-      padding: 0 30px 0 30px; }
+      padding: 0 10px 0 10px; }
   @media (min-width: 768px) {
     .header .header {
       height: 100vh;
@@ -393,11 +393,16 @@ text {
     .header .header__row {
       flex-direction: row-reverse; }
     .header .header__menu {
+      font-size: 10px;
       display: flex;
       margin-top: 76px;
-      margin-bottom: 301px; }
+      margin-bottom: 150px; }
+    .header .header__menu--li {
+      margin-left: 40px; }
     .header .header__logo {
-      margin: 39px 220px 0px 93px; } }
+      margin: 39px 400px 0px 93px; }
+    .header .header__hero {
+      margin-left: 50px; } }
 
 /*@import 'components/code';
 @import 'components/links';
