@@ -1,0 +1,60 @@
+.main__one {
+  width: 414px;
+  height: 1108px;
+  padding: 41px 47px 18px 45px;
+
+  background-color: $rectangle_one;
+
+  color: $main_color;
+  font-family: $font_text;
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  text-align: center;
+}
+
+.title__one {
+  width: 322px;
+  margin: 0 0 37px;
+
+  font-size: 24px;
+  font-weight: 600;
+
+  grid-column-start: 1;
+  grid-column-end: 5;
+
+  text-align: center;
+
+  .one__uppercase {
+    text-transform: uppercase;
+  }
+  .title__h3 {
+    font-size: 20px;
+  }
+}
+
+.article__table {
+  width: 208px;
+  font-size: 16px;
+  margin-left: 55px;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.article__reuse {
+  width: 208px;
+  font-size: 16px;
+  margin-left: 55px;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.article__guide {
+  width: 208px;
+  font-size: 16px;
+  margin-left: 55px;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
