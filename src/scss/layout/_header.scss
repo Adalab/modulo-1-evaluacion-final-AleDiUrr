@@ -12,7 +12,10 @@
   .fa-solid {
     width: 24px;
     height: 24px;
-    margin: 36px 0 136px 33px;
+    margin-top: 55px;
+    margin-right: 43px;
+    margin-bottom: 136px;
+    margin-left: 33px;
     color: $main-color;
     position: fixed;
   }
@@ -21,8 +24,9 @@
     width: 213px;
     height: 96px;
     margin-top: 19px;
-    margin-left: 60px;
+    margin-right: 101px;
     margin-bottom: 100px;
+    margin-left: 100px;
   }
 
   .header__hero {
@@ -33,20 +37,22 @@
   .header__title {
     font-family: $font-text;
     color: $main-color;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
   }
 
   .header__button {
+    width: 176px;
+    height: 48px;
+    margin: 12px 24px 12px 24px;
+
     background-color: $main-color;
+    border-style: none;
+
     font-family: $font-text;
     font-weight: 600;
     font-size: 16px;
     color: $tertiary-color;
-    border-style: none;
-    width: 140px;
-    height: 30px;
-    margin: 12px 24px 12px 24px;
   }
 
   .header__menu {
@@ -58,53 +64,40 @@
       display: flex;
       flex-direction: row;
       list-style: none;
+      text-decoration: none;
     }
     .header__menu--li {
       padding: 0 10px 0 10px;
     }
   }
 
-  @media (min-width: 768px) {
-    .header {
-      height: 100vh;
-      width: 100vw;
-      margin: 0 0 465px;
-      padding: 39px 323px 286px 82px;
-      background-size: contain;
-      background-repeat: no-repeat;
-    }
-
+  @media (min-width: 900px) {
     .header__logo {
-      display: flex;
-      justify-content: center;
       margin-top: 39px;
-      margin-left: 323px;
-      margin-right: 82px;
-    }
-
-    .header__hero {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
+      margin-right: 334px;
+      margin-bottom: 229px;
+      margin-left: 353px;
     }
 
     .header__title {
-      font-size: 26px;
-      text-align: left;
-      width: 330px;
-      margin-left: 82px;
+      font-size: 36px;
+      width: 430px;
+      margin-left: 147px;
+      margin-right: 343px;
+      margin-bottom: 12px;
     }
 
     .header__button {
       font-size: 14px;
       width: 176px;
       height: 48px;
-      margin-left: 82px;
-      margin-bottom: 200px;
+      margin-left: 147px;
+      margin-right: 601px;
+      margin-bottom: 219px;
     }
   }
 
-  @media (min-width: 1200px) {
+  @media (min-width: 1718px) {
     .header {
       height: 100vh;
     }
@@ -116,25 +109,29 @@
       flex-direction: row-reverse;
     }
 
-    /*
     .header__menu {
       font-size: 10px;
       display: flex;
       margin-top: 76px;
       margin-bottom: 150px;
       position: fixed;
-    }*/
-
-    .header__menu--li {
-      margin-left: 40px;
     }
 
     .header__logo {
-      margin: 39px 400px 0px 93px;
+      margin-top: 39px;
+      margin-right: 730px;
+      margin-bottom: 401px;
+      margin-left: 785px;
     }
 
-    .header__hero {
-      margin-left: 50px;
+    .header__title {
+      margin-right: 1018px;
+      margin-left: 280px;
+    }
+
+    .header__button {
+      margin-right: 1296px;
+      margin-left: 280px;
     }
   }
 }

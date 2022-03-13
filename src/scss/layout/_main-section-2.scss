@@ -1,0 +1,36 @@
+.main__two {
+  background-color: $rectangle_two;
+}
+
+.article__send {
+  display: grid;
+  justify-content: center;
+}
+
+.img__truck {
+  margin-top: 46px;
+  margin-left: 96px;
+}
+
+.title__send {
+  font-size: 24px;
+  color: $tertiary_color;
+  font-family: $font_text;
+}
+
+.p__truck {
+  font-size: 14px;
+  color: $tertiary_color;
+  font-family: $font_text;
+  text-align: center;
+}
+
+.button__truck {
+  font-size: 16px;
+  color: $tertiary_color;
+  background: transparent;
+  margin-bottom: 63px;
+  border: none;
+  font-family: $font_text;
+  text-decoration: underline;
+}

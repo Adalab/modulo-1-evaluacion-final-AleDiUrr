@@ -314,15 +314,19 @@ template {
   .header .fa-solid {
     width: 24px;
     height: 24px;
-    margin: 36px 0 136px 33px;
+    margin-top: 55px;
+    margin-right: 43px;
+    margin-bottom: 136px;
+    margin-left: 33px;
     color: #0c474b;
     position: fixed; }
   .header .header__logo {
     width: 213px;
     height: 96px;
     margin-top: 19px;
-    margin-left: 60px;
-    margin-bottom: 100px; }
+    margin-right: 101px;
+    margin-bottom: 100px;
+    margin-left: 100px; }
   .header .header__hero {
     display: flex;
     flex-direction: column;
@@ -330,18 +334,18 @@ template {
   .header .header__title {
     font-family: "Poppins", sans-serif;
     color: #0c474b;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600; }
   .header .header__button {
+    width: 176px;
+    height: 48px;
+    margin: 12px 24px 12px 24px;
     background-color: #0c474b;
+    border-style: none;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 16px;
-    color: #ffffff;
-    border-style: none;
-    width: 140px;
-    height: 30px;
-    margin: 12px 24px 12px 24px; }
+    color: #ffffff; }
   .header .header__menu {
     font-family: "Poppins", sans-serif;
     color: #0c474b;
@@ -349,60 +353,53 @@ template {
     .header .header__menu .header__menu__ul {
       display: flex;
       flex-direction: row;
-      list-style: none; }
+      list-style: none;
+      text-decoration: none; }
     .header .header__menu .header__menu--li {
       padding: 0 10px 0 10px; }
-  @media (min-width: 768px) {
-    .header .header {
-      height: 100vh;
-      width: 100vw;
-      margin: 0 0 465px;
-      padding: 39px 323px 286px 82px;
-      background-size: contain;
-      background-repeat: no-repeat; }
+  @media (min-width: 900px) {
     .header .header__logo {
-      display: flex;
-      justify-content: center;
       margin-top: 39px;
-      margin-left: 323px;
-      margin-right: 82px; }
-    .header .header__hero {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start; }
+      margin-right: 334px;
+      margin-bottom: 229px;
+      margin-left: 353px; }
     .header .header__title {
-      font-size: 26px;
-      text-align: left;
-      width: 330px;
-      margin-left: 82px; }
+      font-size: 36px;
+      width: 430px;
+      margin-left: 147px;
+      margin-right: 343px;
+      margin-bottom: 12px; }
     .header .header__button {
       font-size: 14px;
       width: 176px;
       height: 48px;
-      margin-left: 82px;
-      margin-bottom: 200px; } }
-  @media (min-width: 1200px) {
-    .header {
-      /*
-    .header__menu {
+      margin-left: 147px;
+      margin-right: 601px;
+      margin-bottom: 219px; } }
+  @media (min-width: 1718px) {
+    .header .header {
+      height: 100vh; }
+    .header .fa-solid {
+      display: none; }
+    .header .header__row {
+      flex-direction: row-reverse; }
+    .header .header__menu {
       font-size: 10px;
       display: flex;
       margin-top: 76px;
       margin-bottom: 150px;
-      position: fixed;
-    }*/ }
-      .header .header {
-        height: 100vh; }
-      .header .fa-solid {
-        display: none; }
-      .header .header__row {
-        flex-direction: row-reverse; }
-      .header .header__menu--li {
-        margin-left: 40px; }
-      .header .header__logo {
-        margin: 39px 400px 0px 93px; }
-      .header .header__hero {
-        margin-left: 50px; } }
+      position: fixed; }
+    .header .header__logo {
+      margin-top: 39px;
+      margin-right: 730px;
+      margin-bottom: 401px;
+      margin-left: 785px; }
+    .header .header__title {
+      margin-right: 1018px;
+      margin-left: 280px; }
+    .header .header__button {
+      margin-right: 1296px;
+      margin-left: 280px; } }
 
 .footer {
   height: 100vh;
@@ -447,9 +444,9 @@ template {
       align-items: flex-end; }
 
 .main__one {
-  width: 414px;
-  height: 1108px;
-  padding: 41px 47px 18px 45px;
+  width: 100vw;
+  height: 100h;
+  padding: 41px 0 18px 0px;
   background-color: #f0ebe5;
   color: #0c474b;
   font-family: "Poppins", sans-serif; }
@@ -462,7 +459,10 @@ template {
 .title__one {
   width: 322px;
   height: 113px;
-  margin: 0 0 37px;
+  margin-top: 41px;
+  margin-left: 45px;
+  margin-bottom: 37px;
+  margin-right: 45px;
   font-size: 24px;
   font-weight: 600;
   text-align: center; }
@@ -474,14 +474,14 @@ template {
 .article__table {
   width: 208px;
   font-size: 16px;
-  margin-left: 55px;
+  margin-left: 95px;
   margin-bottom: 20.5px;
   grid-column-start: 1; }
 
 .article__reuse {
   width: 208px;
   font-size: 16px;
-  margin-left: 55px;
+  margin-left: 95px;
   margin-top: 50px;
   margin-bottom: 20.5px;
   grid-column-start: 1; }
@@ -489,22 +489,20 @@ template {
 .article__guide {
   width: 208px;
   font-size: 16px;
-  margin-left: 55px;
+  margin-left: 95px;
   margin-top: 50px;
   margin-bottom: 20.5px;
   grid-column-start: 1; }
 
 @media (min-width: 900px) {
-  .main__one {
-    width: 900px;
-    height: 532px; }
   .title__one {
     width: 799px;
     height: 38px;
     margin-top: 63px;
-    margin-left: 63px; }
+    margin-left: 53px; }
   .article__table {
     margin-top: 55px;
+    margin-left: 50px;
     grid-column-start: 1; }
   .article__reuse {
     grid-column-start: 2; }
@@ -512,9 +510,6 @@ template {
     grid-column-start: 3; } }
 
 @media (min-width: 1728px) {
-  .main__one {
-    width: 1728px;
-    height: 611px; }
   .title__one {
     width: 799px;
     height: 112px;
@@ -527,6 +522,37 @@ template {
     margin-left: 310px; }
   .article__reuse {
     margin-left: 216px; } }
+
+.main__two {
+  background-color: #ff975a; }
+
+.article__send {
+  display: grid;
+  justify-content: center; }
+
+.img__truck {
+  margin-top: 46px;
+  margin-left: 96px; }
+
+.title__send {
+  font-size: 24px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif; }
+
+.p__truck {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  text-align: center; }
+
+.button__truck {
+  font-size: 16px;
+  color: #ffffff;
+  background: transparent;
+  margin-bottom: 63px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  text-decoration: underline; }
 
 /*@import 'components/code';
 @import 'components/links';
