@@ -24,9 +24,7 @@
     width: 213px;
     height: 96px;
     margin-top: 19px;
-    margin-right: 101px;
-    margin-bottom: 100px;
-    margin-left: 100px;
+    margin-left: 70px;
   }
 
   .header__hero {
@@ -39,10 +37,11 @@
     color: $main-color;
     font-size: 24px;
     font-weight: 600;
+    margin-left: 60px;
   }
 
   .header__button {
-    width: 176px;
+    width: 150px;
     height: 48px;
     margin: 12px 24px 12px 24px;
 
@@ -76,12 +75,12 @@
     }
   }
 
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .header__logo {
       margin-top: 39px;
-      margin-right: 334px;
+      margin-right: 124px;
       margin-bottom: 229px;
-      margin-left: 353px;
+      margin-left: 170px;
     }
 
     .header__title {
@@ -102,16 +101,13 @@
     }
   }
 
-  @media (min-width: 1718px) {
-    .header {
-      height: 100vh;
-    }
+  @media (min-width: 1200px) {
     .fa-solid {
       display: none;
     }
 
     .header__row {
-      flex-direction: row-reverse;
+      flex-direction: row;
     }
 
     .header__menu {
@@ -124,13 +120,13 @@
 
     .header__logo {
       margin-top: 39px;
-      margin-right: 730px;
+      margin-right: 300px;
       margin-bottom: 401px;
-      margin-left: 785px;
+      margin-left: 400px;
     }
 
     .header__title {
-      margin-right: 1018px;
+      margin-right: 500px;
       margin-left: 280px;
     }
 

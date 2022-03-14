@@ -324,9 +324,7 @@ template {
     width: 213px;
     height: 96px;
     margin-top: 19px;
-    margin-right: 101px;
-    margin-bottom: 100px;
-    margin-left: 100px; }
+    margin-left: 70px; }
   .header .header__hero {
     display: flex;
     flex-direction: column;
@@ -335,9 +333,10 @@ template {
     font-family: "Poppins", sans-serif;
     color: #0c474b;
     font-size: 24px;
-    font-weight: 600; }
+    font-weight: 600;
+    margin-left: 60px; }
   .header .header__button {
-    width: 176px;
+    width: 150px;
     height: 48px;
     margin: 12px 24px 12px 24px;
     background-color: #0c474b;
@@ -360,12 +359,12 @@ template {
       text-decoration: none; }
     .header .header__menu .header__menu--li {
       padding: 0 10px 0 10px; }
-  @media (min-width: 900px) {
+  @media (min-width: 768px) {
     .header .header__logo {
       margin-top: 39px;
-      margin-right: 334px;
+      margin-right: 124px;
       margin-bottom: 229px;
-      margin-left: 353px; }
+      margin-left: 170px; }
     .header .header__title {
       font-size: 36px;
       width: 430px;
@@ -379,13 +378,11 @@ template {
       margin-left: 147px;
       margin-right: 601px;
       margin-bottom: 219px; } }
-  @media (min-width: 1718px) {
-    .header .header {
-      height: 100vh; }
+  @media (min-width: 1200px) {
     .header .fa-solid {
       display: none; }
     .header .header__row {
-      flex-direction: row-reverse; }
+      flex-direction: row; }
     .header .header__menu {
       font-size: 10px;
       display: flex;
@@ -394,11 +391,11 @@ template {
       position: fixed; }
     .header .header__logo {
       margin-top: 39px;
-      margin-right: 730px;
+      margin-right: 300px;
       margin-bottom: 401px;
-      margin-left: 785px; }
+      margin-left: 400px; }
     .header .header__title {
-      margin-right: 1018px;
+      margin-right: 500px;
       margin-left: 280px; }
     .header .header__button {
       margin-right: 1296px;
@@ -421,17 +418,17 @@ template {
     margin-bottom: 5px; }
   .footer__box--shop {
     margin-top: 36px;
-    margin-left: 146px;
+    margin-left: 130px;
     margin-right: 59px; }
   .footer__box--we {
-    margin-left: 146px;
+    margin-left: 130px;
     margin-right: 59px; }
   .footer__box--rrss {
-    margin-left: 146px;
+    margin-left: 130px;
     margin-right: 59px; }
 
 .email {
-  margin-left: 40px;
+  width: 100px;
   margin-right: 59px; }
 
 .footer__red {
@@ -440,20 +437,21 @@ template {
   .footer__red .red--contact {
     font-size: 15px;
     padding: 0 10px 0 10px; }
-    .footer__red .red--contact .footer__arrow {
-      display: flex;
-      flex-direction: column-reverse;
-      align-items: flex-end;
-      margin-right: 21px; }
-    .footer__red .red--contact .fa-solid fa-arrow-up {
-      display: flex;
-      align-items: flex-end;
-      text-decoration: none; }
 
-@media (min-width: 900px) {
+.footer__arrow {
+  position: relative;
+  left: 90%;
+  width: 24px;
+  height: 24px;
+  /* display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;*/ }
+
+.footer__arrow--up {
+  color: #ffffff; }
+
+@media (min-width: 768px) {
   .footer {
-    width: 900px;
-    height: 276px;
     flex-direction: row; }
   .footer__box--shop {
     margin-top: 71px;
@@ -482,13 +480,12 @@ template {
   text-align: center; }
 
 .title__one {
-  width: 322px;
-  height: 113px;
+  width: 222px;
   margin-top: 41px;
-  margin-left: 45px;
+  margin-left: 40px;
   margin-bottom: 37px;
-  margin-right: 45px;
-  font-size: 24px;
+  margin-right: 30px;
+  font-size: 20px;
   font-weight: 600;
   text-align: center; }
   .title__one .one__uppercase {
@@ -580,7 +577,6 @@ template {
   text-decoration: underline; }
 
 .design__box--one {
-  height: 414px;
   background-color: #f0ebe5;
   color: #0c474b;
   display: flex;
@@ -591,6 +587,8 @@ template {
   .design__box--one .title__design {
     font-size: 24px; }
   .design__box--one .p__design {
+    width: 300px;
+    text-align: center;
     font-size: 14px; }
   .design__box--one .button__design {
     width: 176px;
@@ -608,11 +606,9 @@ template {
   color: #0c474b; }
 
 .design__box--two {
-  width: 100vw;
-  margin-top: 0; }
+  width: 100%; }
   .design__box--two .img__design {
-    width: 414px;
-    height: 319px;
+    width: 100%;
     display: block; }
 
 /*@import 'components/code';
