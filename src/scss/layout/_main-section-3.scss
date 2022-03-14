@@ -1,0 +1,42 @@
+.design__box--one {
+  height: 100vh;
+  background-color: $rectangle_one;
+  color: $main-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: $font_text;
+
+  .title__design {
+    font-size: 24px;
+  }
+
+  .p__design {
+    font-size: 14px;
+  }
+
+  .button__design {
+    width: 176px;
+    height: 48px;
+    margin: 12px 24px 12px 24px;
+
+    background-color: $main-color;
+    border-style: none;
+
+    font-family: $font-text;
+    font-weight: 600;
+    font-size: 16px;
+    color: $tertiary-color;
+  }
+}
+
+.design__box--two {
+  height: 100vh;
+  margin-top: 0;
+
+  .img__design {
+    height: 100vh;
+    width: 414px;
+  }
+}

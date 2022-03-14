@@ -554,6 +554,37 @@ template {
   font-family: "Poppins", sans-serif;
   text-decoration: underline; }
 
+.design__box--one {
+  height: 100vh;
+  background-color: #f0ebe5;
+  color: #0c474b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif; }
+  .design__box--one .title__design {
+    font-size: 24px; }
+  .design__box--one .p__design {
+    font-size: 14px; }
+  .design__box--one .button__design {
+    width: 176px;
+    height: 48px;
+    margin: 12px 24px 12px 24px;
+    background-color: #0c474b;
+    border-style: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff; }
+
+.design__box--two {
+  height: 100vh;
+  margin-top: 0; }
+  .design__box--two .img__design {
+    height: 100vh;
+    width: 414px; }
+
 /*@import 'components/code';
 @import 'components/links';
 @import 'layout/page';
