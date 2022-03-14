@@ -62,7 +62,7 @@
 
 @media (min-width: 768px) {
   .title__one {
-    width: 300px;
+    width: 700px;
     height: 38px;
 
     margin-top: 63px;
@@ -70,16 +70,20 @@
   }
 
   .article__table {
+    width: 150px;
     margin-top: 55px;
-    margin-left: 50px;
+    margin-left: 30px;
     grid-column-start: 1;
   }
 
   .article__reuse {
+    width: 150px;
+    margin-left: 55px;
     grid-column-start: 2;
   }
 
   .article__guide {
+    width: 150px;
     grid-column-start: 3;
   }
 }
