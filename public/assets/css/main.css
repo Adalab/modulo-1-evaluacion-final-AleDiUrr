@@ -346,6 +346,9 @@ template {
     font-weight: 600;
     font-size: 16px;
     color: #ffffff; }
+  .header .header__button:hover {
+    background-color: #b6c8c9;
+    color: #0c474b; }
   .header .header__menu {
     font-family: "Poppins", sans-serif;
     color: #0c474b;
@@ -402,8 +405,6 @@ template {
       margin-left: 280px; } }
 
 .footer {
-  height: 100vh;
-  width: 100vw;
   background-color: #0c474b;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
@@ -420,13 +421,18 @@ template {
     margin-bottom: 5px; }
   .footer__box--shop {
     margin-top: 36px;
-    margin-left: 50px; }
+    margin-left: 146px;
+    margin-right: 59px; }
   .footer__box--we {
-    margin-left: 50px; }
+    margin-left: 146px;
+    margin-right: 59px; }
   .footer__box--rrss {
-    margin-top: 0;
-    margin-left: 50px;
-    width: 200px; }
+    margin-left: 146px;
+    margin-right: 59px; }
+
+.email {
+  margin-left: 40px;
+  margin-right: 59px; }
 
 .footer__red {
   display: flex;
@@ -441,7 +447,26 @@ template {
       margin-right: 21px; }
     .footer__red .red--contact .fa-solid fa-arrow-up {
       display: flex;
-      align-items: flex-end; }
+      align-items: flex-end;
+      text-decoration: none; }
+
+@media (min-width: 900px) {
+  .footer {
+    width: 900px;
+    height: 276px;
+    flex-direction: row; }
+  .footer__box--shop {
+    margin-top: 71px;
+    margin-left: 96px;
+    margin-right: 59px; }
+  .footer__box--we {
+    margin-top: 71px;
+    margin-left: 20px;
+    margin-right: 20px; }
+  .footer__box--rrss {
+    margin-top: 71px;
+    margin-left: 20px;
+    margin-right: 20px; } }
 
 .main__one {
   width: 100vw;
@@ -555,7 +580,7 @@ template {
   text-decoration: underline; }
 
 .design__box--one {
-  height: 100vh;
+  height: 414px;
   background-color: #f0ebe5;
   color: #0c474b;
   display: flex;
@@ -578,12 +603,17 @@ template {
     font-size: 16px;
     color: #ffffff; }
 
+.button__design:hover {
+  background-color: #b6c8c9;
+  color: #0c474b; }
+
 .design__box--two {
-  height: 100vh;
+  width: 100vw;
   margin-top: 0; }
   .design__box--two .img__design {
-    height: 100vh;
-    width: 414px; }
+    width: 414px;
+    height: 319px;
+    display: block; }
 
 /*@import 'components/code';
 @import 'components/links';

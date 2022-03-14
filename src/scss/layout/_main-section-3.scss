@@ -1,5 +1,5 @@
 .design__box--one {
-  height: 100vh;
+  height: 414px;
   background-color: $rectangle_one;
   color: $main-color;
   display: flex;
@@ -31,12 +31,18 @@
   }
 }
 
+.button__design:hover {
+  background-color: $secondary_color;
+  color: $main_color;
+}
+
 .design__box--two {
-  height: 100vh;
+  width: 100vw;
   margin-top: 0;
 
   .img__design {
-    height: 100vh;
     width: 414px;
+    height: 319px;
+    display: block;
   }
 }

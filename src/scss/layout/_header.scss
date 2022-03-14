@@ -55,6 +55,11 @@
     color: $tertiary-color;
   }
 
+  .header__button:hover {
+    background-color: $secondary_color;
+    color: $main_color;
+  }
+
   .header__menu {
     font-family: $font_text;
     color: $main-color;
