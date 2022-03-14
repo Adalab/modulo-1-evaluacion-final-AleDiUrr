@@ -60,9 +60,9 @@
   grid-column-start: 1;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 768px) {
   .title__one {
-    width: 799px;
+    width: 300px;
     height: 38px;
 
     margin-top: 63px;
@@ -84,23 +84,13 @@
   }
 }
 
-@media (min-width: 1728px) {
+@media (min-width: 1200px) {
   .title__one {
     width: 799px;
     height: 112px;
 
     margin-top: 42px;
-    margin-right: 429px;
-    margin-left: 500px;
+    margin-left: 200px;
     font-size: 36px;
-    text-align: center;
-  }
-
-  .article__table {
-    margin-left: 310px;
-  }
-
-  .article__reuse {
-    margin-left: 216px;
   }
 }

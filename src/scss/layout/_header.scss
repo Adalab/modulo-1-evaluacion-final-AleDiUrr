@@ -5,10 +5,6 @@
   background-size: cover;
   background-repeat: no-repeat;
 
-  .header__row {
-    display: flex;
-  }
-
   .fa-solid {
     width: 24px;
     height: 24px;
@@ -79,8 +75,8 @@
     .header__logo {
       margin-top: 39px;
       margin-right: 124px;
-      margin-bottom: 229px;
-      margin-left: 170px;
+      margin-bottom: 20px;
+      margin-left: 300px;
     }
 
     .header__title {
@@ -106,33 +102,29 @@
       display: none;
     }
 
-    .header__row {
-      flex-direction: row;
-    }
-
     .header__menu {
       font-size: 10px;
       display: flex;
       margin-top: 76px;
       margin-bottom: 150px;
       position: fixed;
-    }
 
-    .header__logo {
-      margin-top: 39px;
-      margin-right: 300px;
-      margin-bottom: 401px;
-      margin-left: 400px;
-    }
+      .header__logo {
+        margin-top: 39px;
+        margin-right: 300px;
+        margin-bottom: 401px;
+        margin-left: 500px;
+      }
 
-    .header__title {
-      margin-right: 500px;
-      margin-left: 280px;
-    }
+      .header__title {
+        margin-right: 500px;
+        margin-left: 280px;
+      }
 
-    .header__button {
-      margin-right: 1296px;
-      margin-left: 280px;
+      .header__button {
+        margin-right: 100px;
+        margin-left: 280px;
+      }
     }
   }
 }

@@ -309,8 +309,6 @@ template {
   background-image: url("../images/header.jpg");
   background-size: cover;
   background-repeat: no-repeat; }
-  .header .header__row {
-    display: flex; }
   .header .fa-solid {
     width: 24px;
     height: 24px;
@@ -363,8 +361,8 @@ template {
     .header .header__logo {
       margin-top: 39px;
       margin-right: 124px;
-      margin-bottom: 229px;
-      margin-left: 170px; }
+      margin-bottom: 20px;
+      margin-left: 300px; }
     .header .header__title {
       font-size: 36px;
       width: 430px;
@@ -381,25 +379,23 @@ template {
   @media (min-width: 1200px) {
     .header .fa-solid {
       display: none; }
-    .header .header__row {
-      flex-direction: row; }
     .header .header__menu {
       font-size: 10px;
       display: flex;
       margin-top: 76px;
       margin-bottom: 150px;
       position: fixed; }
-    .header .header__logo {
-      margin-top: 39px;
-      margin-right: 300px;
-      margin-bottom: 401px;
-      margin-left: 400px; }
-    .header .header__title {
-      margin-right: 500px;
-      margin-left: 280px; }
-    .header .header__button {
-      margin-right: 1296px;
-      margin-left: 280px; } }
+      .header .header__menu .header__logo {
+        margin-top: 39px;
+        margin-right: 300px;
+        margin-bottom: 401px;
+        margin-left: 500px; }
+      .header .header__menu .header__title {
+        margin-right: 500px;
+        margin-left: 280px; }
+      .header .header__menu .header__button {
+        margin-right: 100px;
+        margin-left: 280px; } }
 
 .footer {
   background-color: #0c474b;
@@ -451,8 +447,6 @@ template {
   color: #ffffff; }
 
 @media (min-width: 768px) {
-  .footer {
-    flex-direction: row; }
   .footer__box--shop {
     margin-top: 71px;
     margin-left: 96px;
@@ -516,9 +510,9 @@ template {
   margin-bottom: 20.5px;
   grid-column-start: 1; }
 
-@media (min-width: 900px) {
+@media (min-width: 768px) {
   .title__one {
-    width: 799px;
+    width: 300px;
     height: 38px;
     margin-top: 63px;
     margin-left: 53px; }
@@ -531,19 +525,13 @@ template {
   .article__guide {
     grid-column-start: 3; } }
 
-@media (min-width: 1728px) {
+@media (min-width: 1200px) {
   .title__one {
     width: 799px;
     height: 112px;
     margin-top: 42px;
-    margin-right: 429px;
-    margin-left: 500px;
-    font-size: 36px;
-    text-align: center; }
-  .article__table {
-    margin-left: 310px; }
-  .article__reuse {
-    margin-left: 216px; } }
+    margin-left: 200px;
+    font-size: 36px; } }
 
 .main__two {
   background-color: #ff975a; }
