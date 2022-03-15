@@ -4,8 +4,9 @@
   background-image: url("../images/header.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  text-decoration: none;
 
-  .fa-solid {
+  .header__hamburguer {
     width: 24px;
     height: 24px;
     margin-top: 55px;
@@ -16,110 +17,103 @@
     position: fixed;
   }
 
+  .link__hamburguer {
+    text-decoration: none;
+  }
   .header__logo {
     width: 213px;
     height: 96px;
-    margin-top: 19px;
-    margin-left: 70px;
+    margin: 19px 0 80px 70px;
   }
 
   .header__hero {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    .header__title {
+      font-family: $font-text;
+      color: $main-color;
+      font-size: 24px;
+      margin-left: 60px;
+    }
+
+    .header__button {
+      width: 150px;
+      height: 48px;
+      right: 300px;
+
+      background-color: $main-color;
+      border-style: none;
+
+      font-family: $font-text;
+      font-weight: 600;
+      font-size: 16px;
+      color: $tertiary-color;
+    }
+
+    .header__button:hover {
+      background-color: $secondary_color;
+      color: $main_color;
+    }
   }
-  .header__title {
-    font-family: $font-text;
-    color: $main-color;
-    font-size: 24px;
-    font-weight: 600;
-    margin-left: 60px;
-  }
 
-  .header__button {
-    width: 150px;
-    height: 48px;
-    margin: 12px 24px 12px 24px;
-
-    background-color: $main-color;
-    border-style: none;
-
-    font-family: $font-text;
-    font-weight: 600;
-    font-size: 16px;
-    color: $tertiary-color;
-  }
-
-  .header__button:hover {
-    background-color: $secondary_color;
-    color: $main_color;
-  }
-
-  .header__menu {
+  .header__nav {
     font-family: $font_text;
     color: $main-color;
     display: none;
 
-    .header__menu__ul {
+    .header__nav__ul {
       display: flex;
       flex-direction: row;
       list-style: none;
       text-decoration: none;
     }
-    .header__menu--li {
+    .header__nav--li {
       padding: 0 10px 0 10px;
     }
   }
 
   @media (min-width: 768px) {
     .header__logo {
-      margin-top: 39px;
-      margin-right: 124px;
-      margin-bottom: 20px;
-      margin-left: 300px;
+      margin: 39px 124px 80px 300px;
     }
 
+    .header__hero {
+      display: flex;
+      align-items: flex-start;
+    }
     .header__title {
       font-size: 36px;
-      width: 430px;
-      margin-left: 147px;
+      width: 300px;
+      margin-left: 57px;
       margin-right: 343px;
       margin-bottom: 12px;
+      text-align: left;
     }
 
     .header__button {
       font-size: 14px;
       width: 176px;
       height: 48px;
-      margin-left: 147px;
-      margin-right: 601px;
-      margin-bottom: 219px;
+      margin-left: 57px;
     }
   }
 
   @media (min-width: 1200px) {
-    .fa-solid {
+    .header__hamburguer {
       display: none;
     }
 
-    .header__menu {
+    .header__logo {
+      margin: 39px 200px 150px 500px;
+    }
+
+    .header__nav {
       font-size: 10px;
       display: flex;
-      margin-top: 76px;
-      margin-bottom: 150px;
+      margin: 76px;
       position: fixed;
-
-      .header__logo {
-        margin-top: 39px;
-        margin-right: 300px;
-        margin-bottom: 401px;
-        margin-left: 500px;
-      }
-
-      .header__title {
-        margin-right: 500px;
-        margin-left: 280px;
-      }
 
       .header__button {
         margin-right: 100px;
