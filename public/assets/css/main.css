@@ -1,6 +1,7 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  text-decoration: none; }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -397,10 +398,18 @@ template {
 .footer {
   background-color: #0c474b;
   font-family: "Poppins", sans-serif;
-  color: #b6c8c9;
   font-size: 14px;
-  padding-top: 44px;
-  padding-left: 80px; }
+  color: #b6c8c9;
+  padding: 42px 21px 10px 112px; }
+
+.footer__box--shop {
+  padding-bottom: 20px; }
+
+.footer__box--we {
+  padding-bottom: 20px; }
+
+.footer__box--rrss {
+  padding-bottom: 20px; }
 
 .footer__list ul {
   display: flex;
@@ -408,17 +417,19 @@ template {
 
 .footer__list li {
   text-decoration: none;
-  list-style: none; }
+  list-style: none;
+  color: #b6c8c9; }
 
 .footer__title {
-  margin-left: 40px;
-  font-size: 20px; }
+  font-size: 16px;
+  margin-bottom: 15px; }
 
 .footer__red {
   list-style: none;
   display: flex;
   flex-direction: row;
-  gap: 15px; }
+  gap: 10px;
+  padding-bottom: 20px; }
 
 .footer__email {
   width: 100px; }
@@ -436,7 +447,8 @@ template {
   .footer {
     display: flex;
     flex-direction: row;
-    gap: 50px; } }
+    gap: 50px;
+    padding: 60px 48px 0 100px; } }
 
 .main__one {
   width: 100vw;
