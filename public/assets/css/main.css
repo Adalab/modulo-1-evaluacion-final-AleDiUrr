@@ -362,7 +362,16 @@ template {
       list-style: none;
       text-decoration: none; }
     .header .header__nav .header__nav--li {
-      padding: 0 10px 0 10px; }
+      padding: 0 10px 0 10px;
+      color: #0c474b; }
+    .header .header__nav .header__nav--a {
+      padding: 0 10px 0 10px;
+      color: #0c474b; }
+    .header .header__nav--li:hover {
+      background-color: #f0ebe5;
+      color: #0c474b;
+      border-radius: 30%;
+      transition: color 0.3s ease 0s; }
   @media (min-width: 768px) {
     .header .header__logo {
       margin: 39px 124px 80px 300px; }

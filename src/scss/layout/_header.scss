@@ -71,7 +71,21 @@
     }
     .header__nav--li {
       padding: 0 10px 0 10px;
+      color: $main-color;
     }
+
+    .header__nav--a {
+      padding: 0 10px 0 10px;
+      color: $main-color;
+    }
+
+    &--li:hover {
+      background-color: $rectangle_one;
+      color: $main-color;
+      border-radius: 30%;
+      transition: color 0.3s ease 0s;
+    }
+    
   }
 
   @media (min-width: 768px) {
