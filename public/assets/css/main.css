@@ -370,7 +370,7 @@ template {
     .header .header__nav--li:hover {
       background-color: #f0ebe5;
       color: #0c474b;
-      border-radius: 50%;
+      border-radius: 30%;
       transition: color 0.3s ease 0s; }
   @media (min-width: 768px) {
     .header .header__logo {
@@ -494,7 +494,8 @@ template {
 .main__box {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  text-align: center; }
+  text-align: center;
+  justify-items: center; }
 
 .title__one {
   width: 222px;
@@ -557,7 +558,7 @@ template {
     width: 799px;
     height: 112px;
     margin-top: 42px;
-    margin-left: 200px;
+    margin-left: 250px;
     font-size: 36px; } }
 
 .main__two {
