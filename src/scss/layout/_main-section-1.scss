@@ -87,6 +87,10 @@
     width: 150px;
     grid-column-start: 3;
   }
+
+  .main__box {
+    justify-items: center;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -97,5 +101,9 @@
     margin-top: 42px;
     margin-left: 250px;
     font-size: 36px;
+  }
+
+  .main__box {
+    justify-items: center;
   }
 }

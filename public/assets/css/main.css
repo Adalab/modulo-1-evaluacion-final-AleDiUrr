@@ -551,7 +551,9 @@ template {
     grid-column-start: 2; }
   .article__guide {
     width: 150px;
-    grid-column-start: 3; } }
+    grid-column-start: 3; }
+  .main__box {
+    justify-items: center; } }
 
 @media (min-width: 1200px) {
   .title__one {
@@ -559,7 +561,9 @@ template {
     height: 112px;
     margin-top: 42px;
     margin-left: 250px;
-    font-size: 36px; } }
+    font-size: 36px; }
+  .main__box {
+    justify-items: center; } }
 
 .main__two {
   background-color: #ff975a; }
